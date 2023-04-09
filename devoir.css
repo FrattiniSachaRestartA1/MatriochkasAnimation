@@ -1,0 +1,35 @@
+.titre {
+    font-family: Times New Roman;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+  }
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    color: #d3c610;
+    font-size: 16px;
+    cursor: pointer;
+    transition: opacity 0.2s ease-in-out, text-transform 0.2s ease-in-out;
+    margin-bottom: 10px;
+    text-transform: lowercase;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+    text-transform: uppercase;
+    transform: scale(1.2) rotate(10deg);
+
+  }
+ 
